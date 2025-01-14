@@ -1,6 +1,6 @@
 [homeserver]
-<server_ip>
+192.168.1.102
 
 [homeserver:vars]
-ansible_user = <username>
-ansible_ssh_private_key_file = <path/to/private/key>
+ansible_user = juan
+ansible_ssh_pass = the-master-password99

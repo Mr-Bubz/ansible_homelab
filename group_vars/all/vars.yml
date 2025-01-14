@@ -1,22 +1,22 @@
 ---
-username: "<username>"
+username: "juan"
 
 docker_dir: /home/{{ username }}/docker_apps
 data_dir: /home/{{ username }}/data
 
-puid: "<puid>"
+puid: "1000"
 
-pgid: "<pgid>"
+pgid: "1000"
 
-ip_address: "<server_ip>"
+ip_address: "192.168.1.102"
 
-timezone: "<timezone>"
+timezone: "Africa/Johannesburg"
 
-domain: "<domain_name>"
+domain: "appli.co.za"
 
-cloudflare_email: "<cloudflare_email>"
+cloudflare_email: "juan.coetzer@gmail.com"
 
-cloudflare_api_key: "<cloudflare_api_key>"
+cloudflare_api_key: "8IrttcS9TP9Y2a80IvtwrhSGL6tb2suvOD2t5IWN"
 
 traefik_basic_auth_hash: "<traefik_basic_auth_hash>"
 
