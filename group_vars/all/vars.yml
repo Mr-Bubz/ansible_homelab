@@ -18,23 +18,23 @@ cloudflare_email: "juan.coetzer@gmail.com"
 
 cloudflare_api_key: "8IrttcS9TP9Y2a80IvtwrhSGL6tb2suvOD2t5IWN"
 
-traefik_basic_auth_hash: "<traefik_basic_auth_hash>"
+traefik_basic_auth_hash: "juan:2y05Mxn9h80TN7VZdWQp2paBtuufrwfsFsK1et31eyc6qQyH9cRF22ouu"
 
-jwt_secret: "<jwt_secret>"
+jwt_secret: "3IRp9HMTvUmw2s/TZb5T6wzSXa2/MLqKuQNTF3mVWzk="
 
-authelia_sqlite_encryption_key: "<authelia_sqlite_encryption_key>"
+authelia_sqlite_encryption_key: "95936244faecd7c0da9f23aceffd98681acea66967263294cbbab53ca35f1289"
 
-google_mail: "<google_email>"
+google_mail: "juan.coetzer@gmail.com"
 
-google_insecure_app_pass: "<google_insecure_app_pass>"
+google_insecure_app_pass: "ymom kgjh kaix ifaq"
 
-authelia_admin_mail: "<authelia_admin_mail>"
+authelia_admin_mail: "juan.coetzer@gmail.com"
 
-authelia_admin_argon2id_pass: "<authelia_admin_argon2id_pass>"
+authelia_admin_argon2id_pass: "$argon2id$v=19$m=12,t=3,p=1$bG40aDBnaHJjZzAwMDAwMA$S/slAPSSJ8OQicbStpREyA"
 
-wg_password: "<wg_pass>"
+wg_password: "let-me-access-it34"
 
-codeserver_password: "<code_pass>"
+codeserver_password: "what-is-this-54"
 
 packages:
   - unzip
@@ -43,11 +43,13 @@ packages:
   - git
   - python3
   - python3-pip
+  - python3-venv
+  - python3-docker #added
 
 pip_packages:
   - ansible
   - github3.py
-  - docker
+#  - docker
 
 docker_dependencies:
   - ca-certificates

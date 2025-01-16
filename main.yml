@@ -2,7 +2,9 @@
 - name: Setup the homeserver
   hosts: all
   become: true
-
+  vars:
+    ansible_python_interpreter: /opt/ansible-venv/bin/python
+    
   tasks:
     - name: Update server and install essential packages
       ansible.builtin.include_tasks: tasks/essential.yml
